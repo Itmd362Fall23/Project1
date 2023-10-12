@@ -6,8 +6,7 @@ body {
 
 html{
   font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
+  line-height: 2em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
 }
 
@@ -18,7 +17,7 @@ html{
   padding: 100px 0;
   margin: 0 auto;
   border-style: hidden;
-  
+   vertical-align: baseline;
 }
 
 
@@ -30,7 +29,7 @@ html{
   
 }
 
-@media only sceen and (min-width: 992px) {
+@media only sceen and (min-width: 481px and max-width 600px) {
  
   #content {
     width: 100%
