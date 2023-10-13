@@ -6,26 +6,30 @@
   <meta name="viewport" content="width=device-width-scale=1.0,shrink-to-fit=no">
   <link rel ="stylesheet" media="screen" href="css/meyerreset-and-normalize-form.css">
   <link rel ="stylesheet" media="screen" href="css/screen.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Righteous&family=Roboto+Condensed:wght@300&family=Young+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
   <h1 id="title"> Enter Raffle </h1>
   <form method="get" action="#null" autocomplete ="on">
     <div id="content">
       <div class="formElemets">
-        <label>First Name: <input class="textAreas" type="text" name="first_name_field"></label>
+        <label class="labels">First Name <input class="textAreas" type="text" name="first_name_field"></label>
       </div>
       <div class="formElemets">
-        <label>Last Name: <input class="textAreas" type="text" name="last_name_field"></label>
+        <label class="labels">Last Name <input class="textAreas" type="text" name="last_name_field"></label>
       </div>
       <div class="formElemets">
-        <label>Email: <input class="textAreas" type="text" name="email_field"></label>
+        <label class="labels">Email <input class="textAreas" type="text" name="email_field"></label>
       </div>
-        <label>Phone: <input class="textAreas" type="text" name="phone_field"></label>
+        <label class="labels">Phone <input class="textAreas" type="text" name="phone_field"></label>
       <div class="formElemets">
         <label>I am over 18 years old<input id="checkbox" type="checkbox" name="age-verification" value="18"></label>
       </div>
-      <div>
+      <div id="submitButton">
         <input type="submit" name="submit" id="submit" value="Enter Raffle">
+      </div>
     </div>
   </form>
   
