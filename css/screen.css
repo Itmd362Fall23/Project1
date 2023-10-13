@@ -13,11 +13,10 @@ html{
 
 
 #content {
-  
   width: 1000px;
   margin: 0 auto;
   border-style: hidden;
-  font-family: 'Montserrat', sans-serif;
+ font-family: 'Righteous', sans-serif;
 }
 
 #checkbox{
@@ -39,6 +38,11 @@ html{
 #submitButton{
   margin: auto;
   float: right;
+}
+
+#submit{
+  height: 50px;
+  width: 100px;
 }
 
 
