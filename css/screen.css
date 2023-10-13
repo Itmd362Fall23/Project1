@@ -8,6 +8,7 @@ body {
 html{
   font-size: 2.5em; /* 22px */
   line-height: 3em; /* 26px / ~ 120% */
+  padding: 1em;
   text-rendering: optimizeLegibility;
 }
 
@@ -16,7 +17,7 @@ html{
   width: 1000px;
   margin: 0 auto;
   border-style: hidden;
- font-family: 'Righteous', sans-serif;
+  font-family: 'Righteous', sans-serif;
 }
 
 #checkbox{
@@ -28,6 +29,7 @@ html{
   display: inline-block;
   width: 300px;
   text-align: center;
+  padding: 1em; 
 }
 .textAreas{
   display: block;
@@ -38,11 +40,14 @@ html{
 #submitButton{
   margin: auto;
   float: right;
+  padding: 1.2em;
 }
 
 #submit{
   height: 50px;
   width: 100px;
+  padding: 1.2em;
+  background-color: #fffbfb;
 }
 
 
