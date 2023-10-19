@@ -45,9 +45,7 @@ html{
 }
 
 #submit{
-  height: 50px;
-  width: 100px;
-  padding: 1.2em;
+
   background-color: #fffbfb;
 }
 
@@ -105,9 +103,6 @@ h1{
 
   #submit{
     margin: auto;
-    height: 40px;
-    width: 100px;
-    padding: 1.25em;
     background-color: #fffbfb;
     text-align: center;
   }
@@ -146,9 +141,6 @@ h1{
 
   #submit{
     margin: auto;
-    height: 30px;
-    width: 100px;
-    padding: 1em;
     text-align: center;
     background-color:#888787;
   }
